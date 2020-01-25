@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">PokemonFinder</string>
+    <string name="find">FIND</string>
+    <string name="name">Pokemon Name</string>
+    <string name="type">type</string>
+    <string name="ability1">ability1</string>
+    <string name="ability2">ability2</string>
+    <string name="item1">item1</string>
+    <string name="item2">item2</string>
+    <string name="weight">weight</string>
 </resources>
