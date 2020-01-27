@@ -32,7 +32,7 @@ class PokiListFrg(private val frgMng: FragmentManager) : Fragment() {
     private var sortMode = 0
     private var pokiList = arrayListOf<Pokemon>()
     private var offset = 0
-    private val limit = 30
+    private val limit = 248
 
     override fun onCreateView(
         inflater: LayoutInflater,
