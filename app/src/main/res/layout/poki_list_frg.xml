@@ -12,20 +12,23 @@
     </androidx.recyclerview.widget.RecyclerView>
 
     <Button
-        style="@style/button"
-        android:id="@+id/button"/>
+        android:id="@+id/button"
+        style="@style/button" />
     <LinearLayout
         android:id="@+id/editboxLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true">
+
         <EditText
             android:id="@+id/editText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="Pokemon name"
+            android:inputType="textPersonName"
             android:textColor="@color/search"
-            android:inputType="textPersonName"/>
+            android:textColorHint="#D6C8C8" />
     </LinearLayout>
 
     <include
