@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/fragments"
+    android:id="@+id/pokeListFrg">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        style="@style/recyclerView"
+        android:id="@+id/recyclerViewList">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <Button
+        style="@style/button"
+        android:id="@+id/button"/>
+    <LinearLayout
+        android:id="@+id/editboxLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Pokemon" />
+    </LinearLayout>
+
+    <include
+        layout="@layout/content_layout"
+        style="@style/contentLayout">
+    </include>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/progressBar"/>
+
+
+
+</RelativeLayout>
