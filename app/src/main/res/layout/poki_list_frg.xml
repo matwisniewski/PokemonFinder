@@ -24,14 +24,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Pokemon" />
+            android:textColor="@color/search"
+            android:inputType="textPersonName"/>
     </LinearLayout>
 
     <include
-        layout="@layout/content_layout"
-        style="@style/contentLayout">
-    </include>
+        style="@style/contentLayout"
+        layout="@layout/content_layout"></include>
 
     <ProgressBar
         android:id="@+id/progressBar"
